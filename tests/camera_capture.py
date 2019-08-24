@@ -3,7 +3,7 @@ import datetime
 
 # index 0 mean the first camera id, 1 is the second and so on
 # to read video file, replace 0 index by 'filename.mp4'
-cap = cv2.VideoCapture(2)
+cap = cv2.VideoCapture(3)
 
 # save streaming in video file
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
