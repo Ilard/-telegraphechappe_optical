@@ -20,7 +20,7 @@
   telegraph           with a PC           with JSON        symbol
    symbol             Python app          connection       & code
 
-        \               _____               ______                 \
+        \               _____               ______               \
   +--|--+     =[]      | PC  |             |      |        +--|--+
   |  |          |______|_____|--network-->-|server|--->--- |  |
      |                 /_____/             |______|           |
