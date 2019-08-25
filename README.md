@@ -16,13 +16,13 @@
 #### Simple schematic
 
 ```sh
-   Chappe           Web camera          Web server       Diplay
-  telegraph         with a PC           with JSON        symbol
-   symbol           Python app          connection       & code
+   Chappe             Web camera          Web server       Display
+  telegraph           with a PC           with JSON        symbol
+   symbol             Python app          connection       & code
 
-        \             _____               ______               \
-  +--|--+     =[]    | PC  |             |      |        +--|--+
-  |  |          |____|_____|--network-->-|server|--->--- |  |
-     |               /_____/             |______|           |
-  Arduino          optical work        Web animation     Web Page
+        \               _____               ______                 \
+  +--|--+     =[]      | PC  |             |      |        +--|--+
+  |  |          |______|_____|--network-->-|server|--->--- |  |
+     |                 /_____/             |______|           |
+  Arduino    Webcam  optical work        Web animation     Web Page
 ```
