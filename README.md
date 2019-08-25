@@ -26,3 +26,26 @@
      |                 /_____/             |______|           |
   Arduino    Webcam  optical work        Web animation     Web Page
 ```
+
+#### Telegraph and webcam installation
+Telegraph and webcam in situation.
+
+![](doc/pictures/20190825_212012_640x360.jpg)
+
+![](doc/pictures/20190825_212130_640x1138.jpg)
+
+#### Camera view
+This is what camera is watching :
+- The Chappe telegraph symbol is in black color.
+- The background is white.
+- So the Python app job is to separate the black and white colors to isolate de right symbol.
+
+![](tests/img-output/2019-8-25_20.54.14_telegraph-original.png)
+
+#### Python application processing
+In fact, there is the result of the process  :
+- The color captured by the webcam is converted into grey scale.
+- The threshold is set to 53 (0 up to 255) for this test.
+- Note that the threshold value is depending of the light of the room.
+
+![](tests/img-output/2019-8-25_20.54.14_telegraph-thresholding.png)
